@@ -1,0 +1,4 @@
+source;share/timbot_navigation/local_setup.bash
+source;share/timbot_navigation/local_setup.dsv
+source;share/timbot_navigation/local_setup.sh
+source;share/timbot_navigation/local_setup.zsh

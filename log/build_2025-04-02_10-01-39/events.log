@@ -1,0 +1,596 @@
+[0.000000] (-) TimerEvent: {}
+[0.002195] (imu_bno055) JobQueued: {'identifier': 'imu_bno055', 'dependencies': OrderedDict()}
+[0.002861] (timbot_navigation) JobQueued: {'identifier': 'timbot_navigation', 'dependencies': OrderedDict()}
+[0.003182] (imu_bno055) JobStarted: {'identifier': 'imu_bno055'}
+[0.056128] (timbot_navigation) JobStarted: {'identifier': 'timbot_navigation'}
+[0.085141] (imu_bno055) JobProgress: {'identifier': 'imu_bno055', 'progress': 'cmake'}
+[0.088496] (imu_bno055) Command: {'cmd': ['/usr/bin/cmake', '/home/ch03/name_ws/src/ros-imu-bno055', '-DCMAKE_INSTALL_PREFIX=/home/ch03/name_ws/install/imu_bno055'], 'cwd': '/home/ch03/name_ws/build/imu_bno055', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ch03'), ('SSH_CLIENT', '192.168.10.39 33640 22'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ch03'), ('OLDPWD', '/home/ch03'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-eb150202-e393-40a7-a4b4-2cc247e30e7a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ch03/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ch03/name_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ch03'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ch03/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ch03/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-f411a64487ad5ce7.txt'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2e88902cc7.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '11'), ('AMENT_PREFIX_PATH', '/home/ch03/name_ws/install/timbot_navigation:/home/ch03/name_ws/install/imu_bno055:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ch03/name_ws/build/imu_bno055'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.10.39 33640 192.168.10.9 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ch03/name_ws/install/timbot_navigation:/home/ch03/name_ws/install/imu_bno055:/opt/ros/humble')]), 'shell': False}
+[0.100967] (-) TimerEvent: {}
+[0.125253] (timbot_navigation) JobProgress: {'identifier': 'timbot_navigation', 'progress': 'cmake'}
+[0.128668] (timbot_navigation) Command: {'cmd': ['/usr/bin/cmake', '/home/ch03/name_ws/src/timbot_navigation', '-DCMAKE_INSTALL_PREFIX=/home/ch03/name_ws/install/timbot_navigation'], 'cwd': '/home/ch03/name_ws/build/timbot_navigation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ch03'), ('SSH_CLIENT', '192.168.10.39 33640 22'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ch03'), ('OLDPWD', '/home/ch03'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-eb150202-e393-40a7-a4b4-2cc247e30e7a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ch03/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ch03/name_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ch03'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ch03/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ch03/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-f411a64487ad5ce7.txt'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2e88902cc7.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '11'), ('AMENT_PREFIX_PATH', '/home/ch03/name_ws/install/timbot_navigation:/home/ch03/name_ws/install/imu_bno055:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ch03/name_ws/build/timbot_navigation'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.10.39 33640 192.168.10.9 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ch03/name_ws/install/timbot_navigation:/home/ch03/name_ws/install/imu_bno055:/opt/ros/humble')]), 'shell': False}
+[0.202430] (-) TimerEvent: {}
+[0.304060] (-) TimerEvent: {}
+[0.406329] (-) TimerEvent: {}
+[0.497480] (imu_bno055) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.506583] (-) TimerEvent: {}
+[0.514724] (timbot_navigation) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.606816] (-) TimerEvent: {}
+[0.708295] (-) TimerEvent: {}
+[0.810412] (-) TimerEvent: {}
+[0.915285] (-) TimerEvent: {}
+[0.931838] (timbot_navigation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.981428] (imu_bno055) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.984434] (timbot_navigation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.015536] (-) TimerEvent: {}
+[1.044857] (imu_bno055) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.115801] (-) TimerEvent: {}
+[1.218703] (-) TimerEvent: {}
+[1.320915] (-) TimerEvent: {}
+[1.426649] (-) TimerEvent: {}
+[1.443681] (timbot_navigation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.468084] (imu_bno055) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.491391] (timbot_navigation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.493965] (timbot_navigation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.496523] (timbot_navigation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.503703] (imu_bno055) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.504750] (imu_bno055) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.509836] (imu_bno055) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.516750] (timbot_navigation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.524046] (imu_bno055) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.526850] (-) TimerEvent: {}
+[1.627722] (-) TimerEvent: {}
+[1.729213] (-) TimerEvent: {}
+[1.831024] (-) TimerEvent: {}
+[1.932796] (-) TimerEvent: {}
+[2.008231] (timbot_navigation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.033024] (-) TimerEvent: {}
+[2.035474] (imu_bno055) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.082349] (timbot_navigation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.085850] (timbot_navigation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.089558] (timbot_navigation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.113719] (imu_bno055) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.127246] (imu_bno055) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.129369] (imu_bno055) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.133048] (-) TimerEvent: {}
+[2.135655] (timbot_navigation) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.164477] (imu_bno055) StdoutLine: {'line': b'-- Found ros_environment: 3.2.2 (/opt/ros/humble/share/ros_environment/cmake)\n'}
+[2.203085] (imu_bno055) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.233264] (-) TimerEvent: {}
+[2.334771] (-) TimerEvent: {}
+[2.436684] (-) TimerEvent: {}
+[2.538364] (-) TimerEvent: {}
+[2.640509] (-) TimerEvent: {}
+[2.742142] (-) TimerEvent: {}
+[2.843775] (-) TimerEvent: {}
+[2.945373] (-) TimerEvent: {}
+[3.047007] (-) TimerEvent: {}
+[3.147868] (-) TimerEvent: {}
+[3.248932] (-) TimerEvent: {}
+[3.350208] (-) TimerEvent: {}
+[3.453022] (-) TimerEvent: {}
+[3.517840] (timbot_navigation) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.553248] (-) TimerEvent: {}
+[3.654083] (-) TimerEvent: {}
+[3.754854] (-) TimerEvent: {}
+[3.792046] (imu_bno055) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.855134] (-) TimerEvent: {}
+[3.956087] (-) TimerEvent: {}
+[4.056896] (-) TimerEvent: {}
+[4.121661] (timbot_navigation) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.157115] (-) TimerEvent: {}
+[4.258016] (-) TimerEvent: {}
+[4.358758] (-) TimerEvent: {}
+[4.371980] (imu_bno055) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.414309] (timbot_navigation) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.451320] (timbot_navigation) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.458915] (-) TimerEvent: {}
+[4.505451] (timbot_navigation) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.559102] (-) TimerEvent: {}
+[4.577992] (timbot_navigation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.658255] (imu_bno055) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.659234] (-) TimerEvent: {}
+[4.676620] (timbot_navigation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.695895] (imu_bno055) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.754120] (imu_bno055) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.759542] (-) TimerEvent: {}
+[4.824686] (imu_bno055) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.859739] (-) TimerEvent: {}
+[4.924250] (imu_bno055) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.949177] (timbot_navigation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.959918] (-) TimerEvent: {}
+[4.968591] (timbot_navigation) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.060098] (-) TimerEvent: {}
+[5.161564] (-) TimerEvent: {}
+[5.198079] (imu_bno055) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.218853] (imu_bno055) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.261773] (-) TimerEvent: {}
+[5.362710] (-) TimerEvent: {}
+[5.429820] (timbot_navigation) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.462891] (-) TimerEvent: {}
+[5.563662] (-) TimerEvent: {}
+[5.565585] (timbot_navigation) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.663875] (-) TimerEvent: {}
+[5.697784] (imu_bno055) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.764074] (-) TimerEvent: {}
+[5.793226] (timbot_navigation) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.831551] (imu_bno055) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.856698] (timbot_navigation) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.864235] (-) TimerEvent: {}
+[5.965415] (-) TimerEvent: {}
+[6.064063] (imu_bno055) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.065641] (-) TimerEvent: {}
+[6.131218] (imu_bno055) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.165883] (-) TimerEvent: {}
+[6.223115] (timbot_navigation) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.224734] (timbot_navigation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.266177] (-) TimerEvent: {}
+[6.367738] (-) TimerEvent: {}
+[6.468766] (-) TimerEvent: {}
+[6.519039] (imu_bno055) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.520280] (imu_bno055) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.569086] (-) TimerEvent: {}
+[6.615943] (timbot_navigation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.621770] (timbot_navigation) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.669251] (-) TimerEvent: {}
+[6.770834] (-) TimerEvent: {}
+[6.872211] (-) TimerEvent: {}
+[6.914327] (imu_bno055) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.919454] (imu_bno055) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.927845] (timbot_navigation) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[6.941122] (timbot_navigation) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[6.972395] (-) TimerEvent: {}
+[7.073229] (-) TimerEvent: {}
+[7.174034] (-) TimerEvent: {}
+[7.212798] (imu_bno055) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[7.274221] (-) TimerEvent: {}
+[7.375033] (-) TimerEvent: {}
+[7.401774] (imu_bno055) StdoutLine: {'line': b'-- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)\n'}
+[7.475380] (-) TimerEvent: {}
+[7.482699] (imu_bno055) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[7.575571] (-) TimerEvent: {}
+[7.676472] (-) TimerEvent: {}
+[7.777971] (-) TimerEvent: {}
+[7.878993] (-) TimerEvent: {}
+[7.932568] (timbot_navigation) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.937892] (imu_bno055) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.979159] (-) TimerEvent: {}
+[8.015161] (timbot_navigation) StdoutLine: {'line': b'-- Generating done\n'}
+[8.021401] (imu_bno055) StdoutLine: {'line': b'-- Generating done\n'}
+[8.040145] (timbot_navigation) StdoutLine: {'line': b'-- Build files have been written to: /home/ch03/name_ws/build/timbot_navigation\n'}
+[8.047757] (imu_bno055) StdoutLine: {'line': b'-- Build files have been written to: /home/ch03/name_ws/build/imu_bno055\n'}
+[8.079546] (-) TimerEvent: {}
+[8.103754] (timbot_navigation) CommandEnded: {'returncode': 0}
+[8.106499] (timbot_navigation) JobProgress: {'identifier': 'timbot_navigation', 'progress': 'build'}
+[8.110210] (timbot_navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ch03/name_ws/build/timbot_navigation', '--', '-j4', '-l4'], 'cwd': '/home/ch03/name_ws/build/timbot_navigation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ch03'), ('SSH_CLIENT', '192.168.10.39 33640 22'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ch03'), ('OLDPWD', '/home/ch03'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-eb150202-e393-40a7-a4b4-2cc247e30e7a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ch03/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ch03/name_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ch03'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ch03/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ch03/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-f411a64487ad5ce7.txt'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2e88902cc7.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '11'), ('AMENT_PREFIX_PATH', '/home/ch03/name_ws/install/timbot_navigation:/home/ch03/name_ws/install/imu_bno055:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ch03/name_ws/build/timbot_navigation'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.10.39 33640 192.168.10.9 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ch03/name_ws/install/timbot_navigation:/home/ch03/name_ws/install/imu_bno055:/opt/ros/humble')]), 'shell': False}
+[8.122448] (imu_bno055) CommandEnded: {'returncode': 0}
+[8.125336] (imu_bno055) JobProgress: {'identifier': 'imu_bno055', 'progress': 'build'}
+[8.127061] (imu_bno055) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ch03/name_ws/build/imu_bno055', '--', '-j4', '-l4'], 'cwd': '/home/ch03/name_ws/build/imu_bno055', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ch03'), ('SSH_CLIENT', '192.168.10.39 33640 22'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ch03'), ('OLDPWD', '/home/ch03'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-eb150202-e393-40a7-a4b4-2cc247e30e7a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ch03/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ch03/name_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ch03'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ch03/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ch03/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-f411a64487ad5ce7.txt'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2e88902cc7.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '11'), ('AMENT_PREFIX_PATH', '/home/ch03/name_ws/install/timbot_navigation:/home/ch03/name_ws/install/imu_bno055:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ch03/name_ws/build/imu_bno055'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.10.39 33640 192.168.10.9 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ch03/name_ws/install/timbot_navigation:/home/ch03/name_ws/install/imu_bno055:/opt/ros/humble')]), 'shell': False}
+[8.179723] (-) TimerEvent: {}
+[8.281290] (-) TimerEvent: {}
+[8.359191] (timbot_navigation) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o\x1b[0m\n'}
+[8.379923] (imu_bno055) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/bno055_i2c_node.dir/src/bno055_i2c_node_ros2.cpp.o\x1b[0m\n'}
+[8.381514] (-) TimerEvent: {}
+[8.389798] (imu_bno055) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/bno055_i2c_node.dir/src/bno055_i2c_driver.cpp.o\x1b[0m\n'}
+[8.399555] (timbot_navigation) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_copy_timbot_navigation\n'}
+[8.422151] (imu_bno055) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/bno055_i2c_node.dir/src/watchdog.cpp.o\x1b[0m\n'}
+[8.481718] (-) TimerEvent: {}
+[8.583716] (-) TimerEvent: {}
+[8.685062] (-) TimerEvent: {}
+[8.786557] (-) TimerEvent: {}
+[8.889017] (-) TimerEvent: {}
+[8.990548] (-) TimerEvent: {}
+[9.092777] (-) TimerEvent: {}
+[9.194306] (-) TimerEvent: {}
+[9.296077] (-) TimerEvent: {}
+[9.397266] (-) TimerEvent: {}
+[9.499756] (-) TimerEvent: {}
+[9.601388] (-) TimerEvent: {}
+[9.702937] (-) TimerEvent: {}
+[9.804792] (-) TimerEvent: {}
+[9.912568] (-) TimerEvent: {}
+[10.013374] (-) TimerEvent: {}
+[10.114161] (-) TimerEvent: {}
+[10.177304] (timbot_navigation) StdoutLine: {'line': b'running egg_info\n'}
+[10.180851] (timbot_navigation) StdoutLine: {'line': b'creating timbot_navigation.egg-info\n'}
+[10.182133] (timbot_navigation) StdoutLine: {'line': b'writing timbot_navigation.egg-info/PKG-INFO\n'}
+[10.183187] (timbot_navigation) StdoutLine: {'line': b'writing dependency_links to timbot_navigation.egg-info/dependency_links.txt\n'}
+[10.184285] (timbot_navigation) StdoutLine: {'line': b'writing top-level names to timbot_navigation.egg-info/top_level.txt\n'}
+[10.185577] (timbot_navigation) StdoutLine: {'line': b"writing manifest file 'timbot_navigation.egg-info/SOURCES.txt'\n"}
+[10.197104] (timbot_navigation) StdoutLine: {'line': b"reading manifest file 'timbot_navigation.egg-info/SOURCES.txt'\n"}
+[10.200466] (timbot_navigation) StdoutLine: {'line': b"writing manifest file 'timbot_navigation.egg-info/SOURCES.txt'\n"}
+[10.214471] (-) TimerEvent: {}
+[10.317852] (-) TimerEvent: {}
+[10.420052] (-) TimerEvent: {}
+[10.434607] (timbot_navigation) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_build_timbot_navigation_egg\n'}
+[10.520312] (-) TimerEvent: {}
+[10.621981] (-) TimerEvent: {}
+[10.723689] (-) TimerEvent: {}
+[10.825146] (-) TimerEvent: {}
+[10.928550] (-) TimerEvent: {}
+[11.030172] (-) TimerEvent: {}
+[11.132194] (-) TimerEvent: {}
+[11.234023] (-) TimerEvent: {}
+[11.336137] (-) TimerEvent: {}
+[11.438033] (-) TimerEvent: {}
+[11.539875] (-) TimerEvent: {}
+[11.641719] (-) TimerEvent: {}
+[11.743590] (-) TimerEvent: {}
+[11.845798] (-) TimerEvent: {}
+[11.948291] (-) TimerEvent: {}
+[12.050974] (-) TimerEvent: {}
+[12.152874] (-) TimerEvent: {}
+[12.254609] (-) TimerEvent: {}
+[12.355761] (-) TimerEvent: {}
+[12.456842] (-) TimerEvent: {}
+[12.557868] (-) TimerEvent: {}
+[12.659796] (-) TimerEvent: {}
+[12.761719] (-) TimerEvent: {}
+[12.863902] (-) TimerEvent: {}
+[12.967692] (-) TimerEvent: {}
+[13.069296] (-) TimerEvent: {}
+[13.171321] (-) TimerEvent: {}
+[13.273664] (-) TimerEvent: {}
+[13.375984] (-) TimerEvent: {}
+[13.477229] (-) TimerEvent: {}
+[13.578978] (-) TimerEvent: {}
+[13.680863] (-) TimerEvent: {}
+[13.782341] (-) TimerEvent: {}
+[13.883867] (-) TimerEvent: {}
+[13.985553] (-) TimerEvent: {}
+[14.086494] (-) TimerEvent: {}
+[14.187358] (-) TimerEvent: {}
+[14.288448] (-) TimerEvent: {}
+[14.389543] (-) TimerEvent: {}
+[14.491194] (-) TimerEvent: {}
+[14.592225] (-) TimerEvent: {}
+[14.693421] (-) TimerEvent: {}
+[14.794521] (-) TimerEvent: {}
+[14.895487] (-) TimerEvent: {}
+[14.996451] (-) TimerEvent: {}
+[15.097602] (-) TimerEvent: {}
+[15.198845] (-) TimerEvent: {}
+[15.299790] (-) TimerEvent: {}
+[15.400705] (-) TimerEvent: {}
+[15.501741] (-) TimerEvent: {}
+[15.602683] (-) TimerEvent: {}
+[15.703587] (-) TimerEvent: {}
+[15.804746] (-) TimerEvent: {}
+[15.905849] (-) TimerEvent: {}
+[16.007015] (-) TimerEvent: {}
+[16.108711] (-) TimerEvent: {}
+[16.210103] (-) TimerEvent: {}
+[16.311239] (-) TimerEvent: {}
+[16.412369] (-) TimerEvent: {}
+[16.513478] (-) TimerEvent: {}
+[16.614590] (-) TimerEvent: {}
+[16.715954] (-) TimerEvent: {}
+[16.817219] (-) TimerEvent: {}
+[16.918303] (-) TimerEvent: {}
+[17.019536] (-) TimerEvent: {}
+[17.123702] (-) TimerEvent: {}
+[17.224995] (-) TimerEvent: {}
+[17.326059] (-) TimerEvent: {}
+[17.427372] (-) TimerEvent: {}
+[17.528803] (-) TimerEvent: {}
+[17.629848] (-) TimerEvent: {}
+[17.731469] (-) TimerEvent: {}
+[17.832754] (-) TimerEvent: {}
+[17.933907] (-) TimerEvent: {}
+[18.035109] (-) TimerEvent: {}
+[18.137413] (-) TimerEvent: {}
+[18.239607] (-) TimerEvent: {}
+[18.341719] (-) TimerEvent: {}
+[18.443822] (-) TimerEvent: {}
+[18.544853] (-) TimerEvent: {}
+[18.646074] (-) TimerEvent: {}
+[18.747174] (-) TimerEvent: {}
+[18.848324] (-) TimerEvent: {}
+[18.949509] (-) TimerEvent: {}
+[19.050656] (-) TimerEvent: {}
+[19.151949] (-) TimerEvent: {}
+[19.253296] (-) TimerEvent: {}
+[19.355198] (-) TimerEvent: {}
+[19.456341] (-) TimerEvent: {}
+[19.557453] (-) TimerEvent: {}
+[19.658675] (-) TimerEvent: {}
+[19.759951] (-) TimerEvent: {}
+[19.861146] (-) TimerEvent: {}
+[19.963131] (-) TimerEvent: {}
+[20.064026] (-) TimerEvent: {}
+[20.166230] (-) TimerEvent: {}
+[20.267144] (-) TimerEvent: {}
+[20.368588] (-) TimerEvent: {}
+[20.469560] (-) TimerEvent: {}
+[20.570926] (-) TimerEvent: {}
+[20.671828] (-) TimerEvent: {}
+[20.772895] (-) TimerEvent: {}
+[20.874210] (-) TimerEvent: {}
+[20.975505] (-) TimerEvent: {}
+[21.076663] (-) TimerEvent: {}
+[21.177721] (-) TimerEvent: {}
+[21.278828] (-) TimerEvent: {}
+[21.379687] (-) TimerEvent: {}
+[21.480754] (-) TimerEvent: {}
+[21.581796] (-) TimerEvent: {}
+[21.682849] (-) TimerEvent: {}
+[21.783737] (-) TimerEvent: {}
+[21.884781] (-) TimerEvent: {}
+[21.985746] (-) TimerEvent: {}
+[22.086713] (-) TimerEvent: {}
+[22.187794] (-) TimerEvent: {}
+[22.288928] (-) TimerEvent: {}
+[22.389803] (-) TimerEvent: {}
+[22.490883] (-) TimerEvent: {}
+[22.592082] (-) TimerEvent: {}
+[22.692981] (-) TimerEvent: {}
+[22.794532] (-) TimerEvent: {}
+[22.895740] (-) TimerEvent: {}
+[22.996619] (-) TimerEvent: {}
+[23.097685] (-) TimerEvent: {}
+[23.198827] (-) TimerEvent: {}
+[23.299863] (-) TimerEvent: {}
+[23.400905] (-) TimerEvent: {}
+[23.502029] (-) TimerEvent: {}
+[23.603042] (-) TimerEvent: {}
+[23.704141] (-) TimerEvent: {}
+[23.805001] (-) TimerEvent: {}
+[23.906175] (-) TimerEvent: {}
+[24.007159] (-) TimerEvent: {}
+[24.108036] (-) TimerEvent: {}
+[24.209117] (-) TimerEvent: {}
+[24.310288] (-) TimerEvent: {}
+[24.411321] (-) TimerEvent: {}
+[24.512409] (-) TimerEvent: {}
+[24.613413] (-) TimerEvent: {}
+[24.714333] (-) TimerEvent: {}
+[24.815376] (-) TimerEvent: {}
+[24.916525] (-) TimerEvent: {}
+[25.017412] (-) TimerEvent: {}
+[25.118355] (-) TimerEvent: {}
+[25.219262] (-) TimerEvent: {}
+[25.320116] (-) TimerEvent: {}
+[25.421131] (-) TimerEvent: {}
+[25.522082] (-) TimerEvent: {}
+[25.623118] (-) TimerEvent: {}
+[25.724149] (-) TimerEvent: {}
+[25.825013] (-) TimerEvent: {}
+[25.926186] (-) TimerEvent: {}
+[26.027164] (-) TimerEvent: {}
+[26.128067] (-) TimerEvent: {}
+[26.229218] (-) TimerEvent: {}
+[26.330420] (-) TimerEvent: {}
+[26.432577] (-) TimerEvent: {}
+[26.533460] (-) TimerEvent: {}
+[26.634545] (-) TimerEvent: {}
+[26.735973] (-) TimerEvent: {}
+[26.837755] (-) TimerEvent: {}
+[26.938880] (-) TimerEvent: {}
+[27.039879] (-) TimerEvent: {}
+[27.140772] (-) TimerEvent: {}
+[27.241879] (-) TimerEvent: {}
+[27.342953] (-) TimerEvent: {}
+[27.444540] (-) TimerEvent: {}
+[27.545952] (-) TimerEvent: {}
+[27.646887] (-) TimerEvent: {}
+[27.747922] (-) TimerEvent: {}
+[27.848789] (-) TimerEvent: {}
+[27.949857] (-) TimerEvent: {}
+[28.051077] (-) TimerEvent: {}
+[28.152439] (-) TimerEvent: {}
+[28.255961] (-) TimerEvent: {}
+[28.357086] (-) TimerEvent: {}
+[28.458271] (-) TimerEvent: {}
+[28.559460] (-) TimerEvent: {}
+[28.660576] (-) TimerEvent: {}
+[28.761983] (-) TimerEvent: {}
+[28.862997] (-) TimerEvent: {}
+[28.964007] (-) TimerEvent: {}
+[29.065304] (-) TimerEvent: {}
+[29.166495] (-) TimerEvent: {}
+[29.267731] (-) TimerEvent: {}
+[29.368933] (-) TimerEvent: {}
+[29.470206] (-) TimerEvent: {}
+[29.571400] (-) TimerEvent: {}
+[29.672435] (-) TimerEvent: {}
+[29.773861] (-) TimerEvent: {}
+[29.875170] (-) TimerEvent: {}
+[29.976675] (-) TimerEvent: {}
+[30.077813] (-) TimerEvent: {}
+[30.179206] (-) TimerEvent: {}
+[30.280140] (-) TimerEvent: {}
+[30.381299] (-) TimerEvent: {}
+[30.482611] (-) TimerEvent: {}
+[30.584012] (-) TimerEvent: {}
+[30.685167] (-) TimerEvent: {}
+[30.786395] (-) TimerEvent: {}
+[30.887947] (-) TimerEvent: {}
+[30.989822] (-) TimerEvent: {}
+[31.091529] (-) TimerEvent: {}
+[31.193135] (-) TimerEvent: {}
+[31.294123] (-) TimerEvent: {}
+[31.395291] (-) TimerEvent: {}
+[31.496557] (-) TimerEvent: {}
+[31.597843] (-) TimerEvent: {}
+[31.699525] (-) TimerEvent: {}
+[31.800748] (-) TimerEvent: {}
+[31.902111] (-) TimerEvent: {}
+[32.003278] (-) TimerEvent: {}
+[32.104533] (-) TimerEvent: {}
+[32.205687] (-) TimerEvent: {}
+[32.306948] (-) TimerEvent: {}
+[32.408066] (-) TimerEvent: {}
+[32.509125] (-) TimerEvent: {}
+[32.610480] (-) TimerEvent: {}
+[32.711543] (-) TimerEvent: {}
+[32.812626] (-) TimerEvent: {}
+[32.913550] (-) TimerEvent: {}
+[33.014503] (-) TimerEvent: {}
+[33.115540] (-) TimerEvent: {}
+[33.216904] (-) TimerEvent: {}
+[33.318283] (-) TimerEvent: {}
+[33.419638] (-) TimerEvent: {}
+[33.520710] (-) TimerEvent: {}
+[33.622011] (-) TimerEvent: {}
+[33.688998] (timbot_navigation) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cpp_executable\x1b[0m\n'}
+[33.722193] (-) TimerEvent: {}
+[33.823128] (-) TimerEvent: {}
+[33.924477] (-) TimerEvent: {}
+[34.025682] (-) TimerEvent: {}
+[34.127259] (-) TimerEvent: {}
+[34.228800] (-) TimerEvent: {}
+[34.330620] (-) TimerEvent: {}
+[34.433007] (-) TimerEvent: {}
+[34.534103] (-) TimerEvent: {}
+[34.635217] (-) TimerEvent: {}
+[34.736503] (-) TimerEvent: {}
+[34.837626] (-) TimerEvent: {}
+[34.881355] (timbot_navigation) StdoutLine: {'line': b'[100%] Built target cpp_executable\n'}
+[34.930407] (timbot_navigation) CommandEnded: {'returncode': 0}
+[34.933664] (timbot_navigation) JobProgress: {'identifier': 'timbot_navigation', 'progress': 'install'}
+[34.937804] (-) TimerEvent: {}
+[34.976591] (timbot_navigation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ch03/name_ws/build/timbot_navigation'], 'cwd': '/home/ch03/name_ws/build/timbot_navigation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ch03'), ('SSH_CLIENT', '192.168.10.39 33640 22'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ch03'), ('OLDPWD', '/home/ch03'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-eb150202-e393-40a7-a4b4-2cc247e30e7a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ch03/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ch03/name_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ch03'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ch03/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ch03/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-f411a64487ad5ce7.txt'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2e88902cc7.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '11'), ('AMENT_PREFIX_PATH', '/home/ch03/name_ws/install/timbot_navigation:/home/ch03/name_ws/install/imu_bno055:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ch03/name_ws/build/timbot_navigation'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.10.39 33640 192.168.10.9 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ch03/name_ws/install/timbot_navigation:/home/ch03/name_ws/install/imu_bno055:/opt/ros/humble')]), 'shell': False}
+[35.006219] (timbot_navigation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[35.007579] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/lib/timbot_navigation/cpp_executable\n'}
+[35.020555] (timbot_navigation) StdoutLine: {'line': b'-- Set runtime path of "/home/ch03/name_ws/install/timbot_navigation/lib/timbot_navigation/cpp_executable" to ""\n'}
+[35.021769] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/environment/pythonpath.sh\n'}
+[35.023245] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/environment/pythonpath.dsv\n'}
+[35.024531] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation-0.0.0-py3.10.egg-info\n'}
+[35.025806] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[35.027502] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[35.029010] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[35.030669] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[35.032178] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation\n'}
+[35.032984] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation/__init__.py\n'}
+[35.034267] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation/module_to_import.py\n'}
+[35.037992] (-) TimerEvent: {}
+[35.140651] (-) TimerEvent: {}
+[35.240251] (timbot_navigation) StdoutLine: {'line': b"Listing '/home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation'...\n"}
+[35.241672] (-) TimerEvent: {}
+[35.244663] (timbot_navigation) StdoutLine: {'line': b"Compiling '/home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation/__init__.py'...\n"}
+[35.246582] (timbot_navigation) StdoutLine: {'line': b"Compiling '/home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation/module_to_import.py'...\n"}
+[35.272107] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/lib/timbot_navigation/range_publisher.py\n'}
+[35.273471] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/launch\n'}
+[35.274384] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/launch/nav_bringup.py\n'}
+[35.275623] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/config\n'}
+[35.276466] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/config/ultrasonics_params.yaml\n'}
+[35.278641] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/share/ament_index/resource_index/package_run_dependencies/timbot_navigation\n'}
+[35.280769] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/share/ament_index/resource_index/parent_prefix_path/timbot_navigation\n'}
+[35.282518] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/environment/ament_prefix_path.sh\n'}
+[35.284101] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/environment/ament_prefix_path.dsv\n'}
+[35.285811] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/environment/path.sh\n'}
+[35.287238] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/environment/path.dsv\n'}
+[35.288761] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/local_setup.bash\n'}
+[35.290592] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/local_setup.sh\n'}
+[35.292157] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/local_setup.zsh\n'}
+[35.293584] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/local_setup.dsv\n'}
+[35.295254] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/package.dsv\n'}
+[35.297034] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/share/ament_index/resource_index/packages/timbot_navigation\n'}
+[35.298968] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/cmake/timbot_navigationConfig.cmake\n'}
+[35.300493] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/cmake/timbot_navigationConfig-version.cmake\n'}
+[35.302411] (timbot_navigation) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/package.xml\n'}
+[35.310386] (timbot_navigation) CommandEnded: {'returncode': 0}
+[35.343348] (-) TimerEvent: {}
+[35.422908] (timbot_navigation) JobEnded: {'identifier': 'timbot_navigation', 'rc': 0}
+[35.443559] (-) TimerEvent: {}
+[35.544689] (-) TimerEvent: {}
+[35.645450] (-) TimerEvent: {}
+[35.746279] (-) TimerEvent: {}
+[35.847031] (-) TimerEvent: {}
+[35.947775] (-) TimerEvent: {}
+[36.048523] (-) TimerEvent: {}
+[36.149264] (-) TimerEvent: {}
+[36.250058] (-) TimerEvent: {}
+[36.350795] (-) TimerEvent: {}
+[36.451587] (-) TimerEvent: {}
+[36.552332] (-) TimerEvent: {}
+[36.653144] (-) TimerEvent: {}
+[36.753893] (-) TimerEvent: {}
+[36.854654] (-) TimerEvent: {}
+[36.955711] (-) TimerEvent: {}
+[37.056702] (-) TimerEvent: {}
+[37.157475] (-) TimerEvent: {}
+[37.258294] (-) TimerEvent: {}
+[37.359082] (-) TimerEvent: {}
+[37.459847] (-) TimerEvent: {}
+[37.560671] (-) TimerEvent: {}
+[37.661449] (-) TimerEvent: {}
+[37.762267] (-) TimerEvent: {}
+[37.862996] (-) TimerEvent: {}
+[37.963740] (-) TimerEvent: {}
+[38.064751] (-) TimerEvent: {}
+[38.166809] (-) TimerEvent: {}
+[38.267510] (-) TimerEvent: {}
+[38.368345] (-) TimerEvent: {}
+[38.469224] (-) TimerEvent: {}
+[38.570084] (-) TimerEvent: {}
+[38.670868] (-) TimerEvent: {}
+[38.771580] (-) TimerEvent: {}
+[38.872349] (-) TimerEvent: {}
+[38.973086] (-) TimerEvent: {}
+[39.073837] (-) TimerEvent: {}
+[39.174692] (-) TimerEvent: {}
+[39.276086] (-) TimerEvent: {}
+[39.377041] (-) TimerEvent: {}
+[39.477898] (-) TimerEvent: {}
+[39.578723] (-) TimerEvent: {}
+[39.679475] (-) TimerEvent: {}
+[39.780231] (-) TimerEvent: {}
+[39.880957] (-) TimerEvent: {}
+[39.981747] (-) TimerEvent: {}
+[40.082519] (-) TimerEvent: {}
+[40.183236] (-) TimerEvent: {}
+[40.283957] (-) TimerEvent: {}
+[40.384716] (-) TimerEvent: {}
+[40.485428] (-) TimerEvent: {}
+[40.586177] (-) TimerEvent: {}
+[40.686950] (-) TimerEvent: {}
+[40.787996] (-) TimerEvent: {}
+[40.888869] (-) TimerEvent: {}
+[40.989820] (-) TimerEvent: {}
+[41.090630] (-) TimerEvent: {}
+[41.191571] (-) TimerEvent: {}
+[41.292353] (-) TimerEvent: {}
+[41.328747] (imu_bno055) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable bno055_i2c_node\x1b[0m\n'}
+[41.392545] (-) TimerEvent: {}
+[41.493739] (-) TimerEvent: {}
+[41.594642] (-) TimerEvent: {}
+[41.695504] (-) TimerEvent: {}
+[41.796415] (-) TimerEvent: {}
+[41.897252] (-) TimerEvent: {}
+[41.998451] (-) TimerEvent: {}
+[42.099403] (-) TimerEvent: {}
+[42.200463] (-) TimerEvent: {}
+[42.301281] (-) TimerEvent: {}
+[42.402083] (-) TimerEvent: {}
+[42.503074] (-) TimerEvent: {}
+[42.604106] (-) TimerEvent: {}
+[42.704976] (-) TimerEvent: {}
+[42.806435] (-) TimerEvent: {}
+[42.907146] (-) TimerEvent: {}
+[42.928954] (imu_bno055) StdoutLine: {'line': b'[100%] Built target bno055_i2c_node\n'}
+[42.972982] (imu_bno055) CommandEnded: {'returncode': 0}
+[42.975717] (imu_bno055) JobProgress: {'identifier': 'imu_bno055', 'progress': 'install'}
+[42.977015] (imu_bno055) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ch03/name_ws/build/imu_bno055'], 'cwd': '/home/ch03/name_ws/build/imu_bno055', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ch03'), ('SSH_CLIENT', '192.168.10.39 33640 22'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ch03'), ('OLDPWD', '/home/ch03'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-eb150202-e393-40a7-a4b4-2cc247e30e7a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ch03/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ch03/name_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ch03'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ch03/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ch03/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ch03/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-f411a64487ad5ce7.txt'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2e88902cc7.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '11'), ('AMENT_PREFIX_PATH', '/home/ch03/name_ws/install/timbot_navigation:/home/ch03/name_ws/install/imu_bno055:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ch03/name_ws/build/imu_bno055'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.10.39 33640 192.168.10.9 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ch03/name_ws/install/timbot_navigation:/home/ch03/name_ws/install/imu_bno055:/opt/ros/humble')]), 'shell': False}
+[43.007350] (-) TimerEvent: {}
+[43.014825] (imu_bno055) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[43.015802] (imu_bno055) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/imu_bno055/lib/imu_bno055/bno055_i2c_node\n'}
+[43.036308] (imu_bno055) StdoutLine: {'line': b'-- Set runtime path of "/home/ch03/name_ws/install/imu_bno055/lib/imu_bno055/bno055_i2c_node" to ""\n'}
+[43.037548] (imu_bno055) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/imu_bno055/share/ament_index/resource_index/package_run_dependencies/imu_bno055\n'}
+[43.039838] (imu_bno055) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/imu_bno055/share/ament_index/resource_index/parent_prefix_path/imu_bno055\n'}
+[43.041707] (imu_bno055) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/imu_bno055/share/imu_bno055/environment/ament_prefix_path.sh\n'}
+[43.043101] (imu_bno055) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/imu_bno055/share/imu_bno055/environment/ament_prefix_path.dsv\n'}
+[43.044488] (imu_bno055) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/imu_bno055/share/imu_bno055/environment/path.sh\n'}
+[43.045948] (imu_bno055) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/imu_bno055/share/imu_bno055/environment/path.dsv\n'}
+[43.047245] (imu_bno055) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/imu_bno055/share/imu_bno055/local_setup.bash\n'}
+[43.048703] (imu_bno055) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/imu_bno055/share/imu_bno055/local_setup.sh\n'}
+[43.051058] (imu_bno055) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/imu_bno055/share/imu_bno055/local_setup.zsh\n'}
+[43.053045] (imu_bno055) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/imu_bno055/share/imu_bno055/local_setup.dsv\n'}
+[43.053849] (imu_bno055) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/imu_bno055/share/imu_bno055/package.dsv\n'}
+[43.054960] (imu_bno055) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/imu_bno055/share/ament_index/resource_index/packages/imu_bno055\n'}
+[43.056628] (imu_bno055) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/imu_bno055/share/imu_bno055/cmake/imu_bno055Config.cmake\n'}
+[43.057823] (imu_bno055) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/imu_bno055/share/imu_bno055/cmake/imu_bno055Config-version.cmake\n'}
+[43.059379] (imu_bno055) StdoutLine: {'line': b'-- Installing: /home/ch03/name_ws/install/imu_bno055/share/imu_bno055/package.xml\n'}
+[43.066361] (imu_bno055) CommandEnded: {'returncode': 0}
+[43.107850] (-) TimerEvent: {}
+[43.132736] (imu_bno055) JobEnded: {'identifier': 'imu_bno055', 'rc': 0}
+[43.135754] (-) EventReactorShutdown: {}

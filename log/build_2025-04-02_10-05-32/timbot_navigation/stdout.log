@@ -1,0 +1,42 @@
+[  0%] Built target ament_cmake_python_copy_timbot_navigation
+[100%] Built target cpp_executable
+running egg_info
+writing timbot_navigation.egg-info/PKG-INFO
+writing dependency_links to timbot_navigation.egg-info/dependency_links.txt
+writing top-level names to timbot_navigation.egg-info/top_level.txt
+reading manifest file 'timbot_navigation.egg-info/SOURCES.txt'
+writing manifest file 'timbot_navigation.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_timbot_navigation_egg
+-- Install configuration: ""
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/lib/timbot_navigation/cpp_executable
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/environment/pythonpath.sh
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/environment/pythonpath.dsv
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation-0.0.0-py3.10.egg-info
+-- Installing: /home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation/__init__.py
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation/module_to_import.py
+Listing '/home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation'...
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/lib/timbot_navigation/range_publisher.py
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/launch
+-- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/launch/nav_bringup.launch.py
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/config
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/config/ultrasonics_params.yaml
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/share/ament_index/resource_index/package_run_dependencies/timbot_navigation
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/share/ament_index/resource_index/parent_prefix_path/timbot_navigation
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/environment/path.sh
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/environment/path.dsv
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/local_setup.bash
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/local_setup.sh
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/local_setup.zsh
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/local_setup.dsv
+-- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/package.dsv
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/share/ament_index/resource_index/packages/timbot_navigation
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/cmake/timbot_navigationConfig.cmake
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/cmake/timbot_navigationConfig-version.cmake
+-- Up-to-date: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/package.xml

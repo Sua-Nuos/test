@@ -1,0 +1,4 @@
+Invoking command in '/home/ch03/name_ws/build/imu_bno055': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ch03/name_ws/build/imu_bno055 -- -j4 -l4
+Invoked command in '/home/ch03/name_ws/build/imu_bno055' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ch03/name_ws/build/imu_bno055 -- -j4 -l4
+Invoking command in '/home/ch03/name_ws/build/imu_bno055': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ch03/name_ws/build/imu_bno055
+Invoked command in '/home/ch03/name_ws/build/imu_bno055' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ch03/name_ws/build/imu_bno055

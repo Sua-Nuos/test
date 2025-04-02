@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1b2a5dcb8744206aec29.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "timbot_navigation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_timbot_navigation_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_timbot_navigation_egg-81e6293e562b859aba18.json",
+					"name" : "ament_cmake_python_build_timbot_navigation_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_timbot_navigation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_timbot_navigation-660fc26ba109bb6b0897.json",
+					"name" : "ament_cmake_python_copy_timbot_navigation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_executable::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_executable-cb4b7dc39707214a2212.json",
+					"name" : "cpp_executable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "timbot_navigation_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-timbot_navigation_uninstall-05900ffa85dfb513093f.json",
+					"name" : "timbot_navigation_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-75a079bafe88681f698b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ch03/name_ws/build/timbot_navigation",
+		"source" : "/home/ch03/name_ws/src/timbot_navigation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

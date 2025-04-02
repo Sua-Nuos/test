@@ -1,0 +1,215 @@
+[0.794s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.795s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffaf34a740>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffaf7eff70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffaf7eff70>>)
+[1.899s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.900s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.900s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.900s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.900s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.901s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.901s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ch03/name_ws'
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.983s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.983s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-imu-bno055) by extensions ['ignore', 'ignore_ament_install']
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-imu-bno055) by extension 'ignore'
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-imu-bno055) by extension 'ignore_ament_install'
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-imu-bno055) by extensions ['colcon_pkg']
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-imu-bno055) by extension 'colcon_pkg'
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-imu-bno055) by extensions ['colcon_meta']
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-imu-bno055) by extension 'colcon_meta'
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-imu-bno055) by extensions ['ros']
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-imu-bno055) by extension 'ros'
+[2.018s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros-imu-bno055' with type 'ros.ament_cmake' and name 'imu_bno055'
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/timbot_navigation) by extensions ['ignore', 'ignore_ament_install']
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/timbot_navigation) by extension 'ignore'
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/timbot_navigation) by extension 'ignore_ament_install'
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/timbot_navigation) by extensions ['colcon_pkg']
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/timbot_navigation) by extension 'colcon_pkg'
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/timbot_navigation) by extensions ['colcon_meta']
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/timbot_navigation) by extension 'colcon_meta'
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/timbot_navigation) by extensions ['ros']
+[2.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/timbot_navigation) by extension 'ros'
+[2.033s] DEBUG:colcon.colcon_core.package_identification:Package 'src/timbot_navigation' with type 'ros.ament_cmake' and name 'timbot_navigation'
+[2.034s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.034s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.035s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.035s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.035s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.211s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ch03/name_ws/install/timbot_navigation' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.217s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ch03/name_ws/install/imu_bno055' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.220s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ch03/name_ws/install/timbot_navigation' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.221s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ch03/name_ws/install/imu_bno055' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.235s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/ch03/name_ws/install
+[2.254s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 181 installed packages in /opt/ros/humble
+[2.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.473s] Level 5:colcon.colcon_core.verb:set package 'imu_bno055' build argument 'cmake_args' from command line to 'None'
+[2.473s] Level 5:colcon.colcon_core.verb:set package 'imu_bno055' build argument 'cmake_target' from command line to 'None'
+[2.473s] Level 5:colcon.colcon_core.verb:set package 'imu_bno055' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.473s] Level 5:colcon.colcon_core.verb:set package 'imu_bno055' build argument 'cmake_clean_cache' from command line to 'False'
+[2.474s] Level 5:colcon.colcon_core.verb:set package 'imu_bno055' build argument 'cmake_clean_first' from command line to 'False'
+[2.474s] Level 5:colcon.colcon_core.verb:set package 'imu_bno055' build argument 'cmake_force_configure' from command line to 'False'
+[2.474s] Level 5:colcon.colcon_core.verb:set package 'imu_bno055' build argument 'ament_cmake_args' from command line to 'None'
+[2.474s] Level 5:colcon.colcon_core.verb:set package 'imu_bno055' build argument 'catkin_cmake_args' from command line to 'None'
+[2.474s] Level 5:colcon.colcon_core.verb:set package 'imu_bno055' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.474s] DEBUG:colcon.colcon_core.verb:Building package 'imu_bno055' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ch03/name_ws/build/imu_bno055', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ch03/name_ws/install/imu_bno055', 'merge_install': False, 'path': '/home/ch03/name_ws/src/ros-imu-bno055', 'symlink_install': False, 'test_result_base': None}
+[2.477s] Level 5:colcon.colcon_core.verb:set package 'timbot_navigation' build argument 'cmake_args' from command line to 'None'
+[2.477s] Level 5:colcon.colcon_core.verb:set package 'timbot_navigation' build argument 'cmake_target' from command line to 'None'
+[2.477s] Level 5:colcon.colcon_core.verb:set package 'timbot_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.477s] Level 5:colcon.colcon_core.verb:set package 'timbot_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[2.478s] Level 5:colcon.colcon_core.verb:set package 'timbot_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[2.478s] Level 5:colcon.colcon_core.verb:set package 'timbot_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[2.478s] Level 5:colcon.colcon_core.verb:set package 'timbot_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[2.478s] Level 5:colcon.colcon_core.verb:set package 'timbot_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[2.478s] Level 5:colcon.colcon_core.verb:set package 'timbot_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.478s] DEBUG:colcon.colcon_core.verb:Building package 'timbot_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ch03/name_ws/build/timbot_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ch03/name_ws/install/timbot_navigation', 'merge_install': False, 'path': '/home/ch03/name_ws/src/timbot_navigation', 'symlink_install': False, 'test_result_base': None}
+[2.479s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.484s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.485s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ch03/name_ws/src/ros-imu-bno055' with build type 'ament_cmake'
+[2.486s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ch03/name_ws/src/ros-imu-bno055'
+[2.499s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.501s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.501s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.540s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ch03/name_ws/src/timbot_navigation' with build type 'ament_cmake'
+[2.541s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ch03/name_ws/src/timbot_navigation'
+[2.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.543s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ch03/name_ws/build/imu_bno055': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ch03/name_ws/src/ros-imu-bno055 -DCMAKE_INSTALL_PREFIX=/home/ch03/name_ws/install/imu_bno055
+[2.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ch03/name_ws/build/timbot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ch03/name_ws/src/timbot_navigation -DCMAKE_INSTALL_PREFIX=/home/ch03/name_ws/install/timbot_navigation
+[10.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ch03/name_ws/build/timbot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ch03/name_ws/src/timbot_navigation -DCMAKE_INSTALL_PREFIX=/home/ch03/name_ws/install/timbot_navigation
+[10.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ch03/name_ws/build/timbot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ch03/name_ws/build/timbot_navigation -- -j4 -l4
+[10.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ch03/name_ws/build/imu_bno055' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ch03/name_ws/src/ros-imu-bno055 -DCMAKE_INSTALL_PREFIX=/home/ch03/name_ws/install/imu_bno055
+[10.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ch03/name_ws/build/imu_bno055': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ch03/name_ws/build/imu_bno055 -- -j4 -l4
+[37.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ch03/name_ws/build/timbot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ch03/name_ws/build/timbot_navigation -- -j4 -l4
+[37.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ch03/name_ws/build/timbot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ch03/name_ws/build/timbot_navigation
+[37.794s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(timbot_navigation)
+[37.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ch03/name_ws/build/timbot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ch03/name_ws/build/timbot_navigation
+[37.811s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/timbot_navigation' for CMake module files
+[37.815s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/timbot_navigation' for CMake config files
+[37.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('timbot_navigation', 'cmake_prefix_path')
+[37.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/hook/cmake_prefix_path.ps1'
+[37.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/hook/cmake_prefix_path.dsv'
+[37.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/hook/cmake_prefix_path.sh'
+[37.831s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/timbot_navigation/lib'
+[37.832s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/timbot_navigation/bin'
+[37.833s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/timbot_navigation/lib/pkgconfig/timbot_navigation.pc'
+[37.834s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/timbot_navigation/lib/python3.10/site-packages'
+[37.836s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/timbot_navigation/bin'
+[37.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/package.ps1'
+[37.842s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/package.dsv'
+[37.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/package.sh'
+[37.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/package.bash'
+[37.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/package.zsh'
+[37.860s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ch03/name_ws/install/timbot_navigation/share/colcon-core/packages/timbot_navigation)
+[37.865s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(timbot_navigation)
+[37.866s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/timbot_navigation' for CMake module files
+[37.870s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/timbot_navigation' for CMake config files
+[37.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('timbot_navigation', 'cmake_prefix_path')
+[37.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/hook/cmake_prefix_path.ps1'
+[37.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/hook/cmake_prefix_path.dsv'
+[37.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/hook/cmake_prefix_path.sh'
+[37.884s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/timbot_navigation/lib'
+[37.885s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/timbot_navigation/bin'
+[37.885s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/timbot_navigation/lib/pkgconfig/timbot_navigation.pc'
+[37.886s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/timbot_navigation/lib/python3.10/site-packages'
+[37.888s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/timbot_navigation/bin'
+[37.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/package.ps1'
+[37.893s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/package.dsv'
+[37.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/package.sh'
+[37.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/package.bash'
+[37.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/package.zsh'
+[37.905s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ch03/name_ws/install/timbot_navigation/share/colcon-core/packages/timbot_navigation)
+[45.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ch03/name_ws/build/imu_bno055' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ch03/name_ws/build/imu_bno055 -- -j4 -l4
+[45.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ch03/name_ws/build/imu_bno055': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ch03/name_ws/build/imu_bno055
+[45.550s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_bno055)
+[45.552s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/imu_bno055' for CMake module files
+[45.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ch03/name_ws/build/imu_bno055' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ch03/name_ws/build/imu_bno055
+[45.557s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/imu_bno055' for CMake config files
+[45.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_bno055', 'cmake_prefix_path')
+[45.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ch03/name_ws/install/imu_bno055/share/imu_bno055/hook/cmake_prefix_path.ps1'
+[45.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ch03/name_ws/install/imu_bno055/share/imu_bno055/hook/cmake_prefix_path.dsv'
+[45.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ch03/name_ws/install/imu_bno055/share/imu_bno055/hook/cmake_prefix_path.sh'
+[45.566s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/imu_bno055/lib'
+[45.567s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/imu_bno055/bin'
+[45.567s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/imu_bno055/lib/pkgconfig/imu_bno055.pc'
+[45.569s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/imu_bno055/lib/python3.10/site-packages'
+[45.570s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/imu_bno055/bin'
+[45.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/ch03/name_ws/install/imu_bno055/share/imu_bno055/package.ps1'
+[45.573s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ch03/name_ws/install/imu_bno055/share/imu_bno055/package.dsv'
+[45.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/ch03/name_ws/install/imu_bno055/share/imu_bno055/package.sh'
+[45.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/ch03/name_ws/install/imu_bno055/share/imu_bno055/package.bash'
+[45.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/ch03/name_ws/install/imu_bno055/share/imu_bno055/package.zsh'
+[45.582s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ch03/name_ws/install/imu_bno055/share/colcon-core/packages/imu_bno055)
+[45.584s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_bno055)
+[45.585s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/imu_bno055' for CMake module files
+[45.588s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/imu_bno055' for CMake config files
+[45.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_bno055', 'cmake_prefix_path')
+[45.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ch03/name_ws/install/imu_bno055/share/imu_bno055/hook/cmake_prefix_path.ps1'
+[45.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ch03/name_ws/install/imu_bno055/share/imu_bno055/hook/cmake_prefix_path.dsv'
+[45.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ch03/name_ws/install/imu_bno055/share/imu_bno055/hook/cmake_prefix_path.sh'
+[45.599s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/imu_bno055/lib'
+[45.599s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/imu_bno055/bin'
+[45.600s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/imu_bno055/lib/pkgconfig/imu_bno055.pc'
+[45.601s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/imu_bno055/lib/python3.10/site-packages'
+[45.602s] Level 1:colcon.colcon_core.environment:checking '/home/ch03/name_ws/install/imu_bno055/bin'
+[45.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/ch03/name_ws/install/imu_bno055/share/imu_bno055/package.ps1'
+[45.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ch03/name_ws/install/imu_bno055/share/imu_bno055/package.dsv'
+[45.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/ch03/name_ws/install/imu_bno055/share/imu_bno055/package.sh'
+[45.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/ch03/name_ws/install/imu_bno055/share/imu_bno055/package.bash'
+[45.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/ch03/name_ws/install/imu_bno055/share/imu_bno055/package.zsh'
+[45.616s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ch03/name_ws/install/imu_bno055/share/colcon-core/packages/imu_bno055)
+[45.617s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[45.618s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[45.619s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[45.619s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[45.643s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[45.643s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[45.644s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[45.644s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[45.647s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[45.648s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[45.649s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ch03/name_ws/install/local_setup.ps1'
+[45.654s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ch03/name_ws/install/_local_setup_util_ps1.py'
+[45.661s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ch03/name_ws/install/setup.ps1'
+[45.666s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ch03/name_ws/install/local_setup.sh'
+[45.669s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ch03/name_ws/install/_local_setup_util_sh.py'
+[45.671s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ch03/name_ws/install/setup.sh'
+[45.677s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ch03/name_ws/install/local_setup.bash'
+[45.679s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ch03/name_ws/install/setup.bash'
+[45.684s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ch03/name_ws/install/local_setup.zsh'
+[45.687s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ch03/name_ws/install/setup.zsh'

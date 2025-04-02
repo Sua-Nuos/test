@@ -1,0 +1,90 @@
+[0.090s] Invoking command in '/home/ch03/name_ws/build/timbot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ch03/name_ws/src/timbot_navigation -DCMAKE_INSTALL_PREFIX=/home/ch03/name_ws/install/timbot_navigation
+[0.457s] -- The C compiler identification is GNU 11.4.0
+[0.874s] -- The CXX compiler identification is GNU 11.4.0
+[0.926s] -- Detecting C compiler ABI info
+[1.386s] -- Detecting C compiler ABI info - done
+[1.433s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.436s] -- Detecting C compile features
+[1.438s] -- Detecting C compile features - done
+[1.459s] -- Detecting CXX compiler ABI info
+[1.950s] -- Detecting CXX compiler ABI info - done
+[2.024s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.028s] -- Detecting CXX compile features
+[2.032s] -- Detecting CXX compile features - done
+[2.077s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.460s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.064s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[4.356s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.393s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.447s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.520s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.618s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.891s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.911s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.372s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.508s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.735s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.798s] -- Looking for pthread.h
+[6.165s] -- Looking for pthread.h - found
+[6.167s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.558s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.564s] -- Found Threads: TRUE  
+[6.870s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[6.883s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.874s] -- Configuring done
+[7.957s] -- Generating done
+[7.982s] -- Build files have been written to: /home/ch03/name_ws/build/timbot_navigation
+[8.046s] Invoked command in '/home/ch03/name_ws/build/timbot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ch03/name_ws/src/timbot_navigation -DCMAKE_INSTALL_PREFIX=/home/ch03/name_ws/install/timbot_navigation
+[8.059s] Invoking command in '/home/ch03/name_ws/build/timbot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ch03/name_ws/build/timbot_navigation -- -j4 -l4
+[8.302s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m
+[8.342s] [ 50%] Built target ament_cmake_python_copy_timbot_navigation
+[10.119s] running egg_info
+[10.123s] creating timbot_navigation.egg-info
+[10.124s] writing timbot_navigation.egg-info/PKG-INFO
+[10.125s] writing dependency_links to timbot_navigation.egg-info/dependency_links.txt
+[10.126s] writing top-level names to timbot_navigation.egg-info/top_level.txt
+[10.127s] writing manifest file 'timbot_navigation.egg-info/SOURCES.txt'
+[10.139s] reading manifest file 'timbot_navigation.egg-info/SOURCES.txt'
+[10.142s] writing manifest file 'timbot_navigation.egg-info/SOURCES.txt'
+[10.376s] [ 50%] Built target ament_cmake_python_build_timbot_navigation_egg
+[33.631s] [100%] [32m[1mLinking CXX executable cpp_executable[0m
+[34.823s] [100%] Built target cpp_executable
+[34.873s] Invoked command in '/home/ch03/name_ws/build/timbot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ch03/name_ws/build/timbot_navigation -- -j4 -l4
+[34.922s] Invoking command in '/home/ch03/name_ws/build/timbot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ch03/name_ws/build/timbot_navigation
+[34.948s] -- Install configuration: ""
+[34.949s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/lib/timbot_navigation/cpp_executable
+[34.963s] -- Set runtime path of "/home/ch03/name_ws/install/timbot_navigation/lib/timbot_navigation/cpp_executable" to ""
+[34.964s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/environment/pythonpath.sh
+[34.965s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/environment/pythonpath.dsv
+[34.967s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation-0.0.0-py3.10.egg-info
+[34.968s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation-0.0.0-py3.10.egg-info/PKG-INFO
+[34.969s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation-0.0.0-py3.10.egg-info/top_level.txt
+[34.971s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation-0.0.0-py3.10.egg-info/SOURCES.txt
+[34.972s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation-0.0.0-py3.10.egg-info/dependency_links.txt
+[34.974s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation
+[34.975s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation/__init__.py
+[34.976s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation/module_to_import.py
+[35.183s] Listing '/home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation'...
+[35.187s] Compiling '/home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation/__init__.py'...
+[35.191s] Compiling '/home/ch03/name_ws/install/timbot_navigation/local/lib/python3.10/dist-packages/timbot_navigation/module_to_import.py'...
+[35.214s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/lib/timbot_navigation/range_publisher.py
+[35.215s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/launch
+[35.216s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/launch/nav_bringup.py
+[35.217s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/config
+[35.218s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/config/ultrasonics_params.yaml
+[35.220s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/share/ament_index/resource_index/package_run_dependencies/timbot_navigation
+[35.223s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/share/ament_index/resource_index/parent_prefix_path/timbot_navigation
+[35.224s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/environment/ament_prefix_path.sh
+[35.226s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/environment/ament_prefix_path.dsv
+[35.228s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/environment/path.sh
+[35.229s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/environment/path.dsv
+[35.231s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/local_setup.bash
+[35.232s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/local_setup.sh
+[35.234s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/local_setup.zsh
+[35.235s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/local_setup.dsv
+[35.237s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/package.dsv
+[35.239s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/share/ament_index/resource_index/packages/timbot_navigation
+[35.241s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/cmake/timbot_navigationConfig.cmake
+[35.242s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/cmake/timbot_navigationConfig-version.cmake
+[35.244s] -- Installing: /home/ch03/name_ws/install/timbot_navigation/share/timbot_navigation/package.xml
+[35.253s] Invoked command in '/home/ch03/name_ws/build/timbot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ch03/name_ws/build/timbot_navigation

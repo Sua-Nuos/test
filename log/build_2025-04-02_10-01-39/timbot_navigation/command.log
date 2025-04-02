@@ -1,0 +1,6 @@
+Invoking command in '/home/ch03/name_ws/build/timbot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ch03/name_ws/src/timbot_navigation -DCMAKE_INSTALL_PREFIX=/home/ch03/name_ws/install/timbot_navigation
+Invoked command in '/home/ch03/name_ws/build/timbot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ch03/name_ws/src/timbot_navigation -DCMAKE_INSTALL_PREFIX=/home/ch03/name_ws/install/timbot_navigation
+Invoking command in '/home/ch03/name_ws/build/timbot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ch03/name_ws/build/timbot_navigation -- -j4 -l4
+Invoked command in '/home/ch03/name_ws/build/timbot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ch03/name_ws/build/timbot_navigation -- -j4 -l4
+Invoking command in '/home/ch03/name_ws/build/timbot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ch03/name_ws/build/timbot_navigation
+Invoked command in '/home/ch03/name_ws/build/timbot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ch03/name_ws/build/timbot_navigation
